@@ -1,0 +1,14 @@
+#To find unique numbers
+
+const arr=[1,2,2,3,3,4,5];
+const set=[...new Set(arr)];
+console.log(set);
+
+#Palindrome
+function is_palindrome(str) {
+    return str===str.split("").reverse().join("");
+}
+console.log(is_palindrome("MALAYALAM"))
+console.log(is_palindrome("MOM"))
+console.log(is_palindrome("FATHER"))
+console.log(is_palindrome("PUP"))
